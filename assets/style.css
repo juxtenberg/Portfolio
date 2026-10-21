@@ -401,6 +401,33 @@ a.chip:hover .material-icons { color: var(--accent-ink); transform: rotate(90deg
 .redesign__label { align-self: flex-start; background: var(--surface); border-radius: 8px; padding: 6px 12px; font-weight: 600; font-size: 16px; line-height: 1.65; color: var(--accent-text); }
 .redesign p { font-size: 18px; color: var(--muted); line-height: 1.65; }
 
+/* Process diagram (inline SVG, transparent) */
+:root { --pd: #ef4b55; }
+:root[data-theme="light"] { --pd: #d2323d; }
+.process-diagram { margin: 8px 0 0; }
+.pd { display: block; width: 100%; height: auto; overflow: visible; }
+.pd--tall { display: none; max-width: 420px; }
+.pd-line { fill: none; stroke: var(--pd); stroke-width: 2; stroke-linecap: round; stroke-dasharray: .1 7;
+  animation: pd-flow 1.6s linear infinite; }
+.pd-arrowhead { fill: none; stroke: var(--pd); stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+@keyframes pd-flow { to { stroke-dashoffset: -14.2; } }
+.pd-ring { fill: none; stroke: var(--pd); stroke-opacity: .4; stroke-width: 1.5; stroke-dasharray: 2 4; }
+.pd-dot { fill: var(--surface); stroke: var(--line); stroke-width: 1; transition: fill .25s var(--ease); }
+.pd-icon { fill: none; stroke: var(--pd); stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; transition: stroke .25s var(--ease); }
+.pd-num { font: 600 11px var(--font-body); fill: var(--pd); letter-spacing: .5px; }
+.pd-title { font: 600 15px var(--font-display); fill: var(--text); letter-spacing: -.2px; }
+.pd-sub { font: 400 12.5px var(--font-body); fill: var(--muted); }
+.pd-node { opacity: 0; transform-box: fill-box; transform-origin: center; transform: scale(.85);
+  transition: opacity .5s var(--ease) var(--d), transform .5s var(--ease) var(--d); }
+.process-diagram.visible .pd-node, .no-js .pd-node { opacity: 1; transform: none; }
+.pd-node:hover .pd-dot { fill: var(--pd); }
+.pd-node:hover .pd-icon { stroke: #fff; }
+.section--surface .pd-dot { fill: var(--bg); }
+@media (max-width: 700px) {
+  .pd--wide { display: none; }
+  .pd--tall { display: block; }
+}
+
 /* Lightbox */
 .lightbox { position: fixed; inset: 0; z-index: 250; background: rgba(5,5,6,.92); display: grid; place-items: center; padding: 24px;
   opacity: 0; visibility: hidden; transition: opacity .3s var(--ease), visibility .3s; cursor: zoom-out; }
