@@ -2,57 +2,97 @@
 <html lang="en" data-theme="dark">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>MyData Assistant - Justin Ökenmuo</title>
-<meta name="description" content="MyData Assistant lets teams request analytics in plain language. The idea was strong; the interface wasn&#x27;t. I redesigned the core experience around clarity">
-<meta property="og:title" content="MyData Assistant - Justin Ökenmuo">
-<meta property="og:description" content="MyData Assistant lets teams request analytics in plain language. The idea was strong; the interface wasn&#x27;t. I redesigned the core experience around clarity">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>MyData Assistant — Justin Ökenmuo</title>
+<meta name="description" content="Rebuilding the MyData analytics assistant around clarity, control and a scalable design system.">
+<meta name="theme-color" content="#0c0c0e">
+<meta property="og:title" content="MyData Assistant — Justin Ökenmuo">
+<meta property="og:description" content="Rebuilding the MyData analytics assistant around clarity, control and a scalable design system.">
 <meta property="og:image" content="https://okenmuo.work/wp-content/uploads/2025/02/Screenshot-36.png">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="https://okenmuo.work/wp-content/uploads/2025/01/cropped-favicon-96x96-2-270x270.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../../assets/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons&display=block" rel="stylesheet">
 <script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t;}catch(e){}</script>
+<link rel="stylesheet" href="../../assets/style.css">
 </head>
-<body>
-<div class="loader" aria-hidden="true"><span>L O A D I N G</span></div>
+<body class="no-js" data-base="../../">
+<a class="skip" href="#main">Skip to content</a>
+<div class="loader" aria-hidden="true"><div class="loader__inner"><span class="loader__label">L O A D I N G</span><span class="loader__bar"><span></span></span></div></div>
 <header class="site-header">
   <div class="wrap header-inner">
     <a class="logo" href="../../">Justin Ökenmuo</a>
-    <nav class="nav" id="nav"><ul><li><a href="../../">Home</a></li><li><a href="../../works/" aria-current="page">Works</a></li><li><a href="../../about/">About</a></li><li><a href="../../contact/">Contact</a></li><li><a href="https://drive.google.com/file/d/1fWzQb8AXRmcuhQcdICG2mZRtPv6aENEN/view?usp=sharing" target="_blank" rel="noopener">CV</a></li></ul></nav>
+    <nav class="nav" aria-label="Main"><a class="nav-link" href="../../">Home</a><a class="nav-link" href="../../works/" aria-current="page">Works</a><a class="nav-link" href="../../about/">About</a><a class="nav-link" href="../../contact/">Contact</a><a class="nav-link" href="https://drive.google.com/file/d/1fWzQb8AXRmcuhQcdICG2mZRtPv6aENEN/view?usp=sharing" target="_blank" rel="noopener">CV</a></nav>
     <div class="header-actions">
-      <button class="theme-toggle" type="button" aria-label="Toggle light and dark mode"><span class="sun">☀</span><span class="moon">☾</span></button>
-      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav"><span></span><span></span></button>
+      <button class="icon-btn theme-toggle" type="button" aria-label="Switch to light mode"><span class="material-icons ic-light" aria-hidden="true">light_mode</span><span class="material-icons ic-dark" aria-hidden="true">dark_mode</span></button>
+      <button class="icon-btn search-btn" type="button" aria-label="Search" data-open-search><span class="material-icons" aria-hidden="true">search</span></button>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="mobile-menu"><span class="menu-btn__label">Menu</span><span class="menu-btn__icon" aria-hidden="true"></span></button>
     </div>
   </div>
 </header>
-<main>
-<section class="page-hero case-hero"><div class="wrap">
-  <p class="eyebrow reveal">App Design, UI/UX</p>
-  <h1 class="reveal">MyData Assistant</h1>
-  <p class="lead reveal">MyData Assistant lets teams request analytics in plain language. The idea was strong; the interface wasn&#x27;t. I redesigned the core experience around clarity, control and a scalable design system.</p>
-  <div class="meta reveal"><div><span class="muted">Client</span>Analytics Intelligence</div><div><span class="muted">Role</span>UX/UI Design</div><div><span class="muted">Year</span>2020</div></div>
-</div></section>
-<section class="section pt0"><div class="wrap case">
-  <figure class="case-img reveal"><img src="https://okenmuo.work/wp-content/uploads/2024/12/ai-home-dashboard.jpg" alt="MyData Assistant"></figure>
-  <div class="case-block reveal"><h2>Challenges</h2><ul><li>Basic tasks, like customising a channel or setting a KPI, took too many steps.</li><li>Powerful features existed but were hard to find.</li><li>Layered navigation and no shared design language made the product feel improvised.</li><li>Strong features had low usage.</li></ul></div><figure class="case-img reveal"><img src="https://okenmuo.work/wp-content/uploads/2025/01/ai-1.jpg" alt="MyData Assistant" loading="lazy"></figure><div class="case-block reveal"><h2>Process</h2><ul><li>Audited pain points using existing research and a first-time-user walkthrough.</li><li>Brought engineering in early to confirm feasibility.</li><li>Mapped journeys and ranked problems by impact versus effort.</li><li>Prototyped and tested workflow variants with stakeholders.</li><li>Built a lightweight design system to unify the product.</li></ul></div><figure class="case-img reveal"><img src="https://okenmuo.work/wp-content/uploads/2025/01/ai2.jpg" alt="MyData Assistant" loading="lazy"></figure><div class="case-block reveal"><h2>What I redesigned</h2><ul><li>Customisable homepage — a configurable dashboard instead of a fixed one.</li><li>Role management — permission tables became an editable, drag-and-drop org chart.</li><li>Task manager — Pending, Active and Completed tabs instead of one date-sorted list.</li><li>AI chat — a conversational UI to generate, view and download reports.</li><li>Settings — grouped into user and organisation tabs, with search and descriptions.</li><li>Notifications — an app-style inbox with read/unread states and grouping.</li></ul></div><div class="gallery"><figure class="case-img reveal"><img src="https://okenmuo.work/wp-content/uploads/2025/01/ai-prev.gif" alt="MyData Assistant" loading="lazy"></figure><figure class="case-img reveal"><img src="https://okenmuo.work/wp-content/uploads/2025/01/ai3.jpg" alt="MyData Assistant" loading="lazy"></figure></div><div class="case-block reveal"><h2>Outcomes</h2><ul><li>Faster, more intuitive workflows with more control over views.</li><li>Higher engagement with previously underused features like custom KPI tracking and multi-channel reporting.</li><li>Fewer settings-related support tickets.</li><li>Better visual consistency and faster feature development thanks to the design system.</li></ul></div>
-  <a class="next-project" href="../azany-ecommerce/"><span class="muted">Next project</span><strong>Azany Seller Central →</strong></a>
-</div></section>
+<div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+  <nav aria-label="Mobile"><ul class="mobile-menu__links"><li><a href="../../">Home<span class="num">01</span></a></li><li><a href="../../works/" aria-current="page">Works<span class="num">02</span></a></li><li><a href="../../about/">About<span class="num">03</span></a></li><li><a href="../../contact/">Contact<span class="num">04</span></a></li><li><a href="https://drive.google.com/file/d/1fWzQb8AXRmcuhQcdICG2mZRtPv6aENEN/view?usp=sharing" target="_blank" rel="noopener">CV<span class="num">05 ↗</span></a></li></ul></nav>
+  <div class="mobile-menu__foot">
+    <button class="text-link" type="button" data-open-search><span class="material-icons" aria-hidden="true">search</span><span class="tl-label">Search the site</span></button>
+    <a class="text-link" href="mailto:jokenmuo@yahoo.com"><span class="material-icons" aria-hidden="true">mail</span><span class="tl-label">jokenmuo@yahoo.com</span></a>
+    <div class="socials" style="justify-content:flex-start"><a class="social" href="#">Linkedin</a><a class="social" href="https://dribbble.com/Juxtenberg" target="_blank" rel="noopener">Dribbble</a><a class="social" href="#">Instagram</a><a class="social" href="https://github.com/juxtenberg" target="_blank" rel="noopener">Github</a></div>
+  </div>
+</div>
+<div class="search" id="search" role="dialog" aria-modal="true" aria-label="Search" aria-hidden="true">
+  <div class="search__top"><button class="icon-btn" type="button" aria-label="Close search" data-close-search><span class="material-icons" aria-hidden="true">close</span></button></div>
+  <div class="search__body">
+    <p class="search__title">What are you looking for?</p>
+    <form role="search"><label class="search__field"><span class="material-icons" aria-hidden="true">search</span><span class="sr-only">Search</span><input type="search" placeholder="Search projects and pages" autocomplete="off"></label></form>
+    <ul class="search__results" aria-live="polite"></ul>
+  </div>
+</div>
+<main id="main">
+<section class="case-intro">
+  <div class="wrap wrap--narrow gap-32">
+    <h1 class="h-display case-title reveal">MyData Assistant</h1>
+    <p class="case-lead reveal">MyData lets teams ask for analytics in plain language instead of digging through messy data. The idea worked. The interface didn’t. I rebuilt the core experience around clarity, control, and a design system that could scale with the product.</p>
+    <h2 class="case-sub reveal">Challenges</h2>
+    <p class="case-p reveal">The platform’s concept was ahead of its time, but its execution held it back. Basic tasks like customizing a channel or setting a KPI took far more steps than they should have. Powerful features existed but stayed hidden, and a design language that had never been unified made the whole product feel improvised rather than built.</p>
+    <div class="chips reveal"><span class="chip">Complex, buried flows</span><span class="chip">Navigation stacked in layers</span><span class="chip">No shared design language</span><span class="chip">Strong features, low usage</span></div>
+    <dl class="meta reveal"><div><dt>Role/Services</dt><dd>UX/UI Design</dd></div><div><dt>Client</dt><dd>Analytics Intelligence</dd></div><div><dt>Year</dt><dd>@2020</dd></div></dl>
+    <figure class="media zoomable reveal" style="margin:0"><img src="../../assets/img/mydata-1.webp" width="1040" height="620" alt="Redesigned MyData dashboard with KPI summary and trend chart"></figure>
+  </div>
+</section>
+<section class="case-sec case-sec--80 section--surface">
+  <div class="wrap wrap--narrow gap-24">
+    <h2 class="case-h2 reveal">Process</h2>
+    <div class="reveal"><ul class="bullets"><li><span><strong>Audited pain points:</strong> combined existing user research with my own first-time-user walkthrough to surface friction the team hadn’t documented yet</span></li><li><span><strong>Partnered with engineering</strong> early to scope what was technically feasible, so design decisions wouldn’t stall in handoff</span></li><li><span><strong>Mapped user journeys</strong> to rank problem areas by impact vs. effort, then sequenced the redesign accordingly</span></li><li><span><strong>Prototyped and tested</strong> multiple workflow variants with stakeholders before committing to final flows</span></li><li><span><strong>Built a lightweight design system,</strong> just enough components and patterns to unify the product without slowing the team down.</span></li></ul></div>
+    <figure class="media zoomable reveal" style="margin:0"><img src="../../assets/img/mydata-2.webp" width="1040" height="620" alt="MyData organisation chart for role management" loading="lazy"></figure>
+  </div>
+</section>
+<section class="case-sec case-sec--80">
+  <div class="wrap wrap--narrow gap-28">
+    <h2 class="case-h2 reveal">What I Redesigned</h2>
+    <article class="redesign reveal"><h3 class="redesign__label">Customizable Homepage</h3><p>Replaced a fixed, one-size-fits-all dashboard with a homepage users can configure to surface the graphical reports they care about, not what the system assumed they wanted. Why it matters: Reduces time-to-insight; users land on relevant data, not a hunt.</p></article><article class="redesign reveal"><h3 class="redesign__label">Role Management, Reimagined</h3><p>Turned static permission tables into a visual, editable org chart. Admins drag and drop to assign roles and see reporting structure at a glance, instead of parsing a settings table. Why it matters: Makes an abstract, error-prone task (permissions) spatial and intuitive.</p></article><article class="redesign reveal"><h3 class="redesign__label">Task Manager: From Endless List to Clear Tabs</h3><p>The old task manager was one long list sorted by date, with no sense of progress. Rebuilt with Pending / Active / Completed tabs, giving users an immediate read on where things stand. Why it matters: Cuts cognitive load; users scan a state, not a timeline.</p></article><article class="redesign reveal"><h3 class="redesign__label">AI Chat Interface</h3><p>Introduced a conversational UI where users chat directly with the assistant to generate, view, and download reports on demand, giving the platform’s core “ask a question, get an answer” promise a proper home. Why it matters: Makes the product’s smartest feature visible and usable, not hidden in a menu.</p></article><article class="redesign reveal"><h3 class="redesign__label">Settings, Untangled</h3><p>Settings had become a dumping ground: every option on one overwhelming page, so confusing that users regularly contacted support just to change a setting. Redesigned into logically grouped tabs (user vs. organizational, for admins), with clear labels, short descriptions, and a search bar to jump straight to what’s needed. Why it matters: Self-service replaces support tickets.</p></article><article class="redesign reveal"><h3 class="redesign__label">Notifications: From Wall of Text to Inbox</h3><p>Notifications were dense, single-line text blocks with no visual hierarchy, making it hard to tell what was urgent, read, or actionable. Redesigned using a familiar app-inbox pattern (clear read/unread states, grouping, scannable message hierarchy). Why it matters: Borrows a mental model users already know, so nothing needs explaining.</p></article>
+    <div class="media-pair">
+      <figure class="media zoomable reveal" style="margin:0"><img src="../../assets/img/mydata-chat.webp" width="508" height="380" alt="MyData AI chat assistant answering an analytics question" loading="lazy"></figure>
+      <figure class="media zoomable reveal" style="margin:0"><img src="../../assets/img/mydata-3.webp" width="508" height="380" alt="MyData task manager with status tabs" loading="lazy"></figure>
+    </div>
+  </div>
+</section>
+<section class="case-sec case-sec--80 section--surface">
+  <div class="wrap wrap--narrow gap-24">
+    <h2 class="case-h2 reveal">Outcomes</h2>
+    <div class="reveal"><ul class="bullets"><li><span><strong>Faster, more intuitive workflows</strong> across the platform, with new customization giving users real control over their view</span></li><li><span><strong>Previously underused features,</strong> like custom KPI tracking and multi-channel reporting, saw a sharp rise in engagement once surfaced properly</span></li><li><span><strong>Settings-related support tickets dropped,</strong> as users could self-serve through the reorganized, searchable settings</span></li><li><span><strong>A lightweight design system</strong> brought visual consistency and sped up future feature development</span></li><li><span><strong>Beta tester and client feedback repeatedly cited</strong> ease of use, better control, and faster access to insights,</span></li></ul></div>
+  </div>
+</section>
 <section class="cta">
   <div class="wrap">
-    <p class="eyebrow">Want to collaborate?</p>
-    <h2>Let's Create Something Together</h2>
+    
+    <h2 class="cta__title reveal"><span>Let's Create Something</span><span class="accent">Together</span></h2>
     <a class="btn" href="../../contact/">Get In Touch!</a>
+    <div class="socials"><a class="social" href="#">Linkedin</a><a class="social" href="https://dribbble.com/Juxtenberg" target="_blank" rel="noopener">Dribbble</a><a class="social" href="#">Instagram</a></div>
   </div>
 </section>
 </main>
-<footer class="site-footer">
-  <div class="wrap footer-inner">
-    <p>Justin Ökenmuo — Creative Technologist x Designer</p>
-    <div class="socials"><a href="https://github.com/juxtenberg" target="_blank" rel="noopener">GitHub</a><a href="https://x.com/juxten" target="_blank" rel="noopener">X</a></div>
-  </div>
-</footer>
+<footer class="site-footer"><div class="wrap">Justin Ökenmuo - Creative Technologist x Designer</div></footer>
 <script src="../../assets/main.js"></script>
 </body>
 </html>

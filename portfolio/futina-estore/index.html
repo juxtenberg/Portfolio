@@ -2,57 +2,112 @@
 <html lang="en" data-theme="dark">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Futina eStore - Justin Ökenmuo</title>
-<meta name="description" content="Futina Electricals, a manufacturer of electrical accessories, had a distributor-style website that produced no digital sales. I led its redesign into a mob">
-<meta property="og:title" content="Futina eStore - Justin Ökenmuo">
-<meta property="og:description" content="Futina Electricals, a manufacturer of electrical accessories, had a distributor-style website that produced no digital sales. I led its redesign into a mob">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Futina eStore — Justin Ökenmuo</title>
+<meta name="description" content="Redesigning Futina Electricals’ distributor site into a mobile-first ecommerce store — 98% uplift in flagship product sales.">
+<meta name="theme-color" content="#0c0c0e">
+<meta property="og:title" content="Futina eStore — Justin Ökenmuo">
+<meta property="og:description" content="Redesigning Futina Electricals’ distributor site into a mobile-first ecommerce store — 98% uplift in flagship product sales.">
 <meta property="og:image" content="https://okenmuo.work/wp-content/uploads/2025/02/Screenshot-36.png">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="https://okenmuo.work/wp-content/uploads/2025/01/cropped-favicon-96x96-2-270x270.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../../assets/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons&display=block" rel="stylesheet">
 <script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t;}catch(e){}</script>
+<link rel="stylesheet" href="../../assets/style.css">
 </head>
-<body>
-<div class="loader" aria-hidden="true"><span>L O A D I N G</span></div>
+<body class="no-js" data-base="../../">
+<a class="skip" href="#main">Skip to content</a>
+<div class="loader" aria-hidden="true"><div class="loader__inner"><span class="loader__label">L O A D I N G</span><span class="loader__bar"><span></span></span></div></div>
 <header class="site-header">
   <div class="wrap header-inner">
     <a class="logo" href="../../">Justin Ökenmuo</a>
-    <nav class="nav" id="nav"><ul><li><a href="../../">Home</a></li><li><a href="../../works/" aria-current="page">Works</a></li><li><a href="../../about/">About</a></li><li><a href="../../contact/">Contact</a></li><li><a href="https://drive.google.com/file/d/1fWzQb8AXRmcuhQcdICG2mZRtPv6aENEN/view?usp=sharing" target="_blank" rel="noopener">CV</a></li></ul></nav>
+    <nav class="nav" aria-label="Main"><a class="nav-link" href="../../">Home</a><a class="nav-link" href="../../works/" aria-current="page">Works</a><a class="nav-link" href="../../about/">About</a><a class="nav-link" href="../../contact/">Contact</a><a class="nav-link" href="https://drive.google.com/file/d/1fWzQb8AXRmcuhQcdICG2mZRtPv6aENEN/view?usp=sharing" target="_blank" rel="noopener">CV</a></nav>
     <div class="header-actions">
-      <button class="theme-toggle" type="button" aria-label="Toggle light and dark mode"><span class="sun">☀</span><span class="moon">☾</span></button>
-      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav"><span></span><span></span></button>
+      <button class="icon-btn theme-toggle" type="button" aria-label="Switch to light mode"><span class="material-icons ic-light" aria-hidden="true">light_mode</span><span class="material-icons ic-dark" aria-hidden="true">dark_mode</span></button>
+      <button class="icon-btn search-btn" type="button" aria-label="Search" data-open-search><span class="material-icons" aria-hidden="true">search</span></button>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="mobile-menu"><span class="menu-btn__label">Menu</span><span class="menu-btn__icon" aria-hidden="true"></span></button>
     </div>
   </div>
 </header>
-<main>
-<section class="page-hero case-hero"><div class="wrap">
-  <p class="eyebrow reveal">CRO, UI/UX</p>
-  <h1 class="reveal">Futina eStore</h1>
-  <p class="lead reveal">Futina Electricals, a manufacturer of electrical accessories, had a distributor-style website that produced no digital sales. I led its redesign into a mobile-first eCommerce store built for Nigerian shoppers — delivering a 98% uplift in flagship product sales within a month of launch.</p>
-  <div class="meta reveal"><div><span class="muted">Client</span>WPI x Futina</div><div><span class="muted">Role</span>Product Designer</div><div><span class="muted">Year</span>2024 · ~12 weeks</div></div>
-</div></section>
-<section class="section pt0"><div class="wrap case">
-  <figure class="case-img reveal"><img src="https://okenmuo.work/wp-content/uploads/2026/09/futina_project.141.jpg" alt="Futina eStore"></figure>
-  <div class="case-block reveal"><h2>The problem</h2><ul><li>Weak product taxonomy — products were listed by SKU only.</li><li>Low-quality photography and no video in a category where trust matters.</li><li>No Futina branding, so the site read like an unofficial reseller.</li><li>No certifications, awards or reviews.</li><li>A desktop-first layout that broke on mobile, where most traffic came from.</li></ul></div><figure class="case-img reveal"><img src="https://okenmuo.work/wp-content/uploads/2026/09/futina_project.141-1024x683.jpg" alt="Futina eStore" loading="lazy"></figure><div class="case-block reveal"><h2>Process</h2><ul><li>Competitive analysis of Nigerian electrical eCommerce players.</li><li>Personas and journey maps for two buyers: the Technician (trade) and the Homeowner (non-technical).</li><li>Card sorting and tree testing, leading to use-case categories and mega-menus.</li><li>Dual-literacy prototyping: specs available but secondary, with imagery and plain language leading.</li><li>Pre-launch validation with Attention Insight and layout A/B comparisons.</li><li>Continuous optimisation with Hotjar, Google Analytics and VWO, run as a recurring CRO routine.</li></ul></div><figure class="case-img reveal"><img src="https://okenmuo.work/wp-content/uploads/2026/10/futina-process-dark.svg" alt="Futina eStore" loading="lazy"></figure><div class="case-block reveal"><h2>The solution</h2><ul><li>Mobile-first rebuild with bottom navigation, slide-in menu, quick view and a guest wishlist.</li><li>Use-case taxonomy with progressive filtering and image-based variant selection.</li><li>Product video and 360° views on every listing.</li><li>Integration with Futina&#x27;s inventory and CRM, showing live stock status.</li><li>Certifications, awards and verified reviews on the homepage and product pages.</li></ul></div><div class="gallery"><figure class="case-img reveal"><img src="https://okenmuo.work/wp-content/uploads/2026/02/prev_homepage_futina.jpg" alt="Futina eStore" loading="lazy"></figure><figure class="case-img reveal"><img src="https://okenmuo.work/wp-content/uploads/2026/09/prev_dropdown_fut.jpg" alt="Futina eStore" loading="lazy"></figure><figure class="case-img reveal"><img src="https://okenmuo.work/wp-content/uploads/2026/09/prev_imagery_fut.jpg" alt="Futina eStore" loading="lazy"></figure><figure class="case-img reveal"><img src="https://okenmuo.work/wp-content/uploads/2026/10/futina-integration.jpg" alt="Futina eStore" loading="lazy"></figure><figure class="case-img reveal"><img src="https://okenmuo.work/wp-content/uploads/2026/09/prev_trust_fut.jpg" alt="Futina eStore" loading="lazy"></figure></div><div class="case-block reveal"><h2>Results</h2><ul><li>98% uplift in flagship product sales one month after launch.</li><li>Significant increase in customer engagement and retention.</li><li>Positive shift in sentiment, confirmed by post-launch surveys.</li></ul></div>
-  <a class="next-project" href="../ai-mydata/"><span class="muted">Next project</span><strong>MyData Assistant →</strong></a>
-</div></section>
+<div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+  <nav aria-label="Mobile"><ul class="mobile-menu__links"><li><a href="../../">Home<span class="num">01</span></a></li><li><a href="../../works/" aria-current="page">Works<span class="num">02</span></a></li><li><a href="../../about/">About<span class="num">03</span></a></li><li><a href="../../contact/">Contact<span class="num">04</span></a></li><li><a href="https://drive.google.com/file/d/1fWzQb8AXRmcuhQcdICG2mZRtPv6aENEN/view?usp=sharing" target="_blank" rel="noopener">CV<span class="num">05 ↗</span></a></li></ul></nav>
+  <div class="mobile-menu__foot">
+    <button class="text-link" type="button" data-open-search><span class="material-icons" aria-hidden="true">search</span><span class="tl-label">Search the site</span></button>
+    <a class="text-link" href="mailto:jokenmuo@yahoo.com"><span class="material-icons" aria-hidden="true">mail</span><span class="tl-label">jokenmuo@yahoo.com</span></a>
+    <div class="socials" style="justify-content:flex-start"><a class="social" href="#">Linkedin</a><a class="social" href="https://dribbble.com/Juxtenberg" target="_blank" rel="noopener">Dribbble</a><a class="social" href="#">Instagram</a><a class="social" href="https://github.com/juxtenberg" target="_blank" rel="noopener">Github</a></div>
+  </div>
+</div>
+<div class="search" id="search" role="dialog" aria-modal="true" aria-label="Search" aria-hidden="true">
+  <div class="search__top"><button class="icon-btn" type="button" aria-label="Close search" data-close-search><span class="material-icons" aria-hidden="true">close</span></button></div>
+  <div class="search__body">
+    <p class="search__title">What are you looking for?</p>
+    <form role="search"><label class="search__field"><span class="material-icons" aria-hidden="true">search</span><span class="sr-only">Search</span><input type="search" placeholder="Search projects and pages" autocomplete="off"></label></form>
+    <ul class="search__results" aria-live="polite"></ul>
+  </div>
+</div>
+<main id="main">
+<section class="case-intro">
+  <div class="wrap wrap--narrow gap-32">
+    <h1 class="h-display case-title reveal">Futina eStore</h1>
+    <p class="case-lead reveal">Futina Electricals, an electrical accessories manufacturer, had a distributor-style website that generated zero digital sales and couldn’t support any marketing effort. I led the redesign into a mobile-first ecommerce experience built around how Nigerian shoppers actually browse and buy electrical appliances. Within one month of launch: <u>significant increase</u> in customer engagement, and a <u>98% uplift</u> in flagship product sales.</p>
+    <p class="eyebrow-accent reveal">TL;DR</p>
+    <figure class="media zoomable reveal" style="margin:0"><img src="../../assets/img/futina-hero.webp" width="1040" height="693" alt="Futina eStore homepage on a laptop, unrolling into the full page"></figure>
+    <dl class="meta reveal"><div><dt>Role/Services</dt><dd>Product Designer</dd></div><div><dt>Client</dt><dd>WPI x Futina Electricals</dd></div><div><dt>Year &amp; Timeline</dt><dd>2024 (~12 weeks)</dd></div></dl>
+  </div>
+</section>
+<section class="case-sec section--surface">
+  <div class="wrap wrap--narrow gap-28">
+    <h2 class="case-h2 reveal">The brief</h2>
+    <p class="case-p reveal">Futina’s marketing team came to us with a website that was actively working against their sales goals. It was built as a static distributor catalogue, not a store, so every marketing campaign they ran had nowhere useful to send traffic.</p>
+    <p class="case-p reveal">Through observing real behavior, mining existing data, and auditing the product, <b class="accent">five root issues</b> stood out:</p>
+    <div class="issues"><article class="issue reveal"><h3><span class="accent">01</span><span>Underdeveloped product taxonomy</span></h3><p>Products weren't broken into logical categories and subcategories, only listed by SKU, driving a high bounce rate on product pages.</p></article><article class="issue reveal"><h3><span class="accent">02</span><span>Low-quality product photos/videos</span></h3><p>Dull photos and no video, in a trust-sensitive category where buyers can't examine an appliance in person.</p></article><article class="issue reveal"><h3><span class="accent">03</span><span>No brand representation</span></h3><p>The site carried none of Futina's colour, type, or tone, and read as an unofficial reseller rather than the manufacturer.</p></article><article class="issue reveal"><h3><span class="accent">04</span><span>Zero trust signals</span></h3><p>No certifications, awards, or real reviews visible, a dealbreaker in a market wary of counterfeit electricals</p></article><article class="issue reveal"><h3><span class="accent">05</span><span>Desktop-first on a mobile audience</span></h3><p>Most of Futina's traffic came from mobile, but the layout broke down below a laptop screen.</p></article></div>
+  </div>
+</section>
+<section class="case-sec">
+  <div class="wrap wrap--narrow gap-32">
+    <h2 class="case-h2 reveal">Approach &amp; Process</h2>
+    <div class="steps"><article class="step reveal"><span class="step__icon"><span class="material-icons" aria-hidden="true">insights</span></span>
+<div class="step__text"><h3>Competitive analysis</h3><p>Mapped what Nigeria's electrical ecommerce players already did well, and where they consistently failed non-technical shoppers and trust-building. Those gaps became Futina's opportunity.</p></div></article><article class="step reveal"><span class="step__icon"><span class="material-icons" aria-hidden="true">alt_route</span></span>
+<div class="step__text"><h3>Two personas, One journey map</h3><p>Working with the marketing team, I went beyond basic demographics to build out two working personas that shaped every design decision downstream: "The Technician" (B2B/trade buyer) &amp; "The Homeowner" (non-technical buyer)"</p><p>I mapped the customer journey for both, from first landing (often via a mobile data-conscious connection) through to post-purchase, flagging friction points at each stage, especially around product comprehension for non-technical buyers, and speed/reorder efficiency for trade buyers.</p></div></article><article class="step reveal"><span class="step__icon"><span class="material-icons" aria-hidden="true">sort</span></span>
+<div class="step__text"><h3>Product taxonomy &amp; IA</h3><p>Audited the fragmented catalogue through card sorting and tree testing with real shoppers, then restructured it into an intuitive IA.use-case categories and subcategories, realised through responsive mega-menus, visual category hubs, and dynamic contextual filtering. Both personas could self-segment quickly on a phone or a desktop, with a shorter path to purchase and less friction along the way.</p></div></article><article class="step reveal"><span class="step__icon"><span class="material-icons" aria-hidden="true">view_in_ar</span></span>
+<div class="step__text"><h3>Dual-literacy prototyping</h3><p>Every product page was designed to serve both personas simultaneously: technical spec sheets available but not front-and-center, while imagery, video, and plain-language descriptions carried the primary story for non-technical shoppers.</p></div></article><article class="step reveal"><span class="step__icon"><span class="material-icons" aria-hidden="true">check</span></span>
+<div class="step__text"><h3>Pre-launch validation</h3><p>Before development handoff, I ran the prototype through Attention Insight to simulate visual attention on key pages, confirming that primary CTAs and trust badges were landing in the natural attention path, and flagging pages with too much competing visual weight (cognitive overload risk). I used the tool's traffic-free A/B comparison to test layout variants before a single real user saw the site.</p></div></article><article class="step reveal"><span class="step__icon"><span class="material-icons" aria-hidden="true">all_inclusive</span></span>
+<div class="step__text"><h3>Continuous optimization</h3><p>Post-launch, I set up Hotjar, Google Analytics, and VWO to move from assumption to evidence: session recordings and heatmaps to see actual friction, funnel analysis to find drop-off points, and VWO to run live A/B tests on top of what Attention Insight had already validated pre-launch.</p><p>To make this sustainable rather than a one-off audit, I built a recurring CRO task routine, a lightweight, repeatable checklist and set of behavioral triggers (e.g., cart abandonment rate crossing a threshold, a category's conversion dipping below baseline) that flagged when a page needed a fresh UX pass. This turned optimization into an ongoing process owned jointly with marketing, not a project that ended at launch.</p></div></article></div>
+    <figure class="media zoomable reveal" style="margin:0"><img src="../../assets/img/futina-process.webp" width="1040" height="520" alt="The 16-step Futina design process, from stakeholder discovery to continuous CRO" loading="lazy"></figure>
+  </div>
+</section>
+<section class="case-sec section--surface">
+  <div class="wrap wrap--narrow gap-32">
+    <p class="eyebrow-accent reveal">The Solution</p>
+    <h2 class="case-h2 case-h2--lg reveal">Every decision maps back to a diagnosed problem</h2>
+    <div class="chips reveal" aria-label="Jump to a solution"><a class="chip" href="#sol-mobile" data-jump="sol-mobile"><span class="material-icons" aria-hidden="true">arrow_circle_right</span>Poor mobile experience</a><a class="chip" href="#sol-architecture" data-jump="sol-architecture"><span class="material-icons" aria-hidden="true">arrow_circle_right</span>Unsorted product taxonomy</a><a class="chip" href="#sol-media" data-jump="sol-media"><span class="material-icons" aria-hidden="true">arrow_circle_right</span>Low-quality imagery</a><a class="chip" href="#sol-integration" data-jump="sol-integration"><span class="material-icons" aria-hidden="true">arrow_circle_right</span>Untethered systems</a><a class="chip" href="#sol-trust" data-jump="sol-trust"><span class="material-icons" aria-hidden="true">arrow_circle_right</span>No trust signals</a></div>
+    <div class="solution" id="sol-mobile"><h3 class="reveal">Built for a mobile, data-conscious shopper</h3><p class="case-p reveal">Mobile-first rebuild that behaves like an app on a phone: a thumb-friendly bottom navigation bar and a slide-in menu for the full category tree. Quick view skips full page reloads on slow connections, and the wishlist works without forcing an account, cached in-browser for guests and only synced if they register.</p><figure class="media zoomable reveal" style="margin:0"><img src="../../assets/img/futina-mobile.webp" width="1040" height="600" alt="Futina mobile storefront on a phone held in hand" loading="lazy"></figure></div><div class="solution" id="sol-architecture"><h3 class="reveal">An intuitive architecture built to shorten the path to purchase</h3><p class="case-p reveal">Taxonomy restructured around use-case categories with progressive filtering. Variants shown as images, not spec dropdowns, so a non-technical buyer identifies the right item by sight.</p><figure class="media zoomable reveal" style="margin:0"><img src="../../assets/img/futina-architecture.webp" width="1040" height="600" alt="Futina mega-menu and visual variant selectors" loading="lazy"></figure></div><div class="solution" id="sol-media"><h3 class="reveal">Manufacturer-grade product media</h3><p class="case-p reveal">Product video and 360° view on every listing, so a shopper who can't hold the appliance gets the closest thing to an in-store inspection.</p><figure class="media zoomable reveal" style="margin:0"><img src="../../assets/img/futina-media.webp" width="1040" height="600" alt="Futina product page with rich imagery and category tiles" loading="lazy"></figure><p class="sub-h reveal">Other features</p><p class="feature-tag reveal">360° Product View, Quick View</p></div><div class="solution" id="sol-integration"><h3 class="reveal">A storefront designed as one part of a larger system</h3><p class="case-p reveal">Integrated the store with Futina’s inventory system and CRM. Every product and variant shows live stock status, so shoppers never order what isn’t available, and order and customer data flow into the CRM for sales and marketing follow-up.</p><figure class="media zoomable reveal" style="margin:0"><img src="../../assets/img/futina-integration.webp" width="1040" height="600" alt="Diagram of the Futina website syncing with Zoho ERP and Zoho CRM" loading="lazy"></figure></div><div class="solution" id="sol-trust"><h3 class="reveal">Trust made visible, not implied</h3><p class="case-p reveal">Certifications, industry awards, and verified reviews surfaced on the homepage and product pages, addressing the biggest hesitation in a market wary of counterfeits.</p><figure class="media zoomable reveal" style="margin:0"><img src="../../assets/img/futina-trust.webp" width="1040" height="600" alt="Futina product card with reviews, secure checkout badges and service guarantees" loading="lazy"></figure></div>
+  </div>
+</section>
+<section class="case-sec">
+  <div class="wrap wrap--narrow gap-32">
+    <p class="eyebrow-accent reveal">Results</p>
+    <h2 class="case-h2 case-h2--lg reveal">A month after launch</h2>
+    <div class="case-stats">
+      <div class="case-stat reveal"><p class="stat__num"><span data-count="50">50</span><span class="accent">% +</span></p><h3>Increase in customer engagement and retention</h3><p>From startups to established brands, helping them achieve their digital goals.</p></div>
+      <div class="case-stat reveal"><p class="stat__num"><span data-count="98">98</span><span class="accent">%</span></p><h3>Uplift in flagship product sales</h3><p>Worked with a variety of clients, from startups to established organisations.</p></div>
+    </div>
+    <p class="closing reveal">Positive shift in customer experience sentiment, confirmed by post-launch surveys</p>
+  </div>
+</section>
 <section class="cta">
   <div class="wrap">
-    <p class="eyebrow">Want to collaborate?</p>
-    <h2>Let's Create Something Together</h2>
+    
+    <h2 class="cta__title reveal"><span>Let's Create Something</span><span class="accent">Together</span></h2>
     <a class="btn" href="../../contact/">Get In Touch!</a>
+    <div class="socials"><a class="social" href="#">Linkedin</a><a class="social" href="https://dribbble.com/Juxtenberg" target="_blank" rel="noopener">Dribbble</a><a class="social" href="#">Instagram</a></div>
   </div>
 </section>
 </main>
-<footer class="site-footer">
-  <div class="wrap footer-inner">
-    <p>Justin Ökenmuo — Creative Technologist x Designer</p>
-    <div class="socials"><a href="https://github.com/juxtenberg" target="_blank" rel="noopener">GitHub</a><a href="https://x.com/juxten" target="_blank" rel="noopener">X</a></div>
-  </div>
-</footer>
+<footer class="site-footer"><div class="wrap">Justin Ökenmuo - Creative Technologist x Designer</div></footer>
 <script src="../../assets/main.js"></script>
 </body>
 </html>
